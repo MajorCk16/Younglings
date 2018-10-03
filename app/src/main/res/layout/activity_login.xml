@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+
+
+
+        >
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:hint="username"
+        android:textAlignment="center"
+        android:textColorHint="#818181"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="277dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Password"
+        android:textColorHint="#818181"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="441dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="171dp"
+        android:layout_height="172dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo2"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+
+        android:layout_centerHorizontal="true"
+        app:cardBackgroundColor="#535353"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="506dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Login"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+</android.support.constraint.ConstraintLayout>
